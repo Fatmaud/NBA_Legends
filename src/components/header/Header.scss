@@ -1,0 +1,32 @@
+@import "../../sass/variables";
+
+.header-container {
+  //border: 2px solid black;
+  text-align: center;
+  line-height: 3rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  //border-bottom: 10px solid rgb(20, 15, 15);
+  background-image: url(../../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 120px;
+    height: 140px;
+  }
+
+  h1 {
+    font-family: $Font;
+    font-weight: 900;
+    font-size: 4rem;
+
+    color: rgb(249, 247, 247);
+  }
+}
